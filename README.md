@@ -1,35 +1,23 @@
+# 🛡️ Transformer Security Checker
+
+This project evaluates the robustness of transformer-based NLP models (e.g., BERT) against adversarial attacks using the [TextAttack](https://github.com/QData/TextAttack) framework.
+
+## 🎯 Goal
+Raise awareness of security vulnerabilities in NLP systems by demonstrating how minor text perturbations can lead to model misclassification. Relevant for AI risk assessments, robust ML development, and national security contexts.
+
+---
+
+## 🗂️ Project Structure
 
 # 🛡️ Transformer Security Checker
 
-This project demonstrates how to evaluate the robustness of transformer models (like BERT) against adversarial attacks using the `textattack` library.
+This project evaluates the robustness of transformer-based NLP models (e.g., BERT) against adversarial attacks using the [TextAttack](https://github.com/QData/TextAttack) framework.
 
-## 📁 Structure
+## 🎯 Goal
+Raise awareness of security vulnerabilities in NLP systems by demonstrating how minor text perturbations can lead to model misclassification. Relevant for AI risk assessments, robust ML development, and national security contexts.
 
-- `notebook/adversarial_demo.ipynb` — Interactive Jupyter Notebook walkthrough
-- `scripts/run_attacks.py` — Scripted attack simulation
-- `requirements.txt` — Install dependencies
+---
 
-## 🚀 Usage
+## 🗂️ Project Structure
 
-1. Install dependencies:
-```
-pip install -r requirements.txt
-```
-
-2. Run attack demo:
-```
-python scripts/run_attacks.py
-```
-
-## 🧪 Tested Models
-- BERT (`textattack/bert-base-uncased-imdb`)
-
-## 📚 Dataset
-- IMDB movie reviews (binary classification)
-
-## 🔒 Goal
-Showcase vulnerabilities in NLP models to raise awareness of robustness and AI security issues.
-=======
-# transformer-security-checker
-Demonstrates adversarial attacks on transformer models using TextAttack and HuggingFace Transformers
 
