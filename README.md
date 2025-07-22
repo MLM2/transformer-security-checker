@@ -1,3 +1,4 @@
+
 # 🛡️ Transformer Security Checker
 
 This project demonstrates how to evaluate the robustness of transformer models (like BERT) against adversarial attacks using the `textattack` library.
@@ -28,3 +29,7 @@ python scripts/run_attacks.py
 
 ## 🔒 Goal
 Showcase vulnerabilities in NLP models to raise awareness of robustness and AI security issues.
+=======
+# transformer-security-checker
+Demonstrates adversarial attacks on transformer models using TextAttack and HuggingFace Transformers
+
